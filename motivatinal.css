@@ -1,0 +1,60 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 40rem;
+    height: 30rem;
+    padding: 40px 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper .text{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 3rem;
+
+    width: 70%;
+}
+
+/*メディアクエリ*/
+@media (max-width: 900px) { 
+    .wrapper{
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .wrapper .text{
+        font-size: 20px;
+        line-height: 2rem;
+    }
+ }
+
+@media (max-width: 768px) { 
+    .wrapper{
+        width: 28rem;
+        height: 18rem;
+    }
+
+    .wrapper .text{
+        font-size: 18px;
+        line-height: 1rem;
+    }
+ }
+ 
+ @media (max-width: 600px) { 
+    .wrapper{
+        width: 25rem;
+        height: 15rem;
+    }
+
+    .wrapper .text{
+        font-size: 16px;
+        line-height: 1rem;
+    }
+ }
+
+
